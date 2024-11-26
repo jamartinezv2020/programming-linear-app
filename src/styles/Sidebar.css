@@ -1,0 +1,36 @@
+/* src/components/Sidebar/Sidebar.css */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #424242;
+  color: white;
+  height: 100vh;
+  width: 250px;
+  padding: 1rem;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-item:hover {
+  background-color: #616161;
+}
+
+.sidebar-item.active {
+  background-color: #1e88e5;
+}
+
+.sidebar-icon {
+  font-size: 1.5rem;
+}
+
+.sidebar-text {
+  font-size: 1rem;
+}

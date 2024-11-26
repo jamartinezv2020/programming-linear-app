@@ -1,0 +1,31 @@
+.footer {
+  background-color: #333333; /* Fondo gris oscuro */
+  color: #ffffff; /* Texto blanco */
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #bbbbbb; /* Enlaces en gris claro */
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #03a9f4; /* Azul claro al pasar el ratón */
+}

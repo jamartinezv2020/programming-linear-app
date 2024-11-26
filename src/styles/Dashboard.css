@@ -1,0 +1,30 @@
+/* src/styles/Dashboard.css */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.MuiDrawer-paper {
+  background-color: #283593; /* Azul moderno */
+}
+
+.MuiToolbar-root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* src/styles/Sidebar.css */
+.sidebar {
+  background-color: #283593;
+  color: white;
+  height: 100%;
+}
+
+.sidebar .MuiListItem-root {
+  transition: background-color 0.3s;
+}
+
+.sidebar .MuiListItem-root:hover {
+  background-color: #3949ab;
+}

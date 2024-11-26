@@ -1,0 +1,9 @@
+/* src/pages/SolverPage/SolverPage.css */
+.solver-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
